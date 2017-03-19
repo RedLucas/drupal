@@ -1,0 +1,10 @@
+<?php
+
+function vuejs_table_theme() {
+  $items = [
+    'vuejs_table' => [
+      'render element' => 'element',
+    ],
+  ];
+  return $items;
+}

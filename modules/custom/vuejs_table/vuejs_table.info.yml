@@ -1,0 +1,8 @@
+name: Vuejs Table
+type: module
+description: ""
+package: Web services
+core: 8.x
+dependencies:
+  - vuejs
+  - system (>=8.2.0)

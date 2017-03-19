@@ -1,0 +1,6 @@
+vuejs_table.playground:
+  path: '/vuejs-playground'
+  defaults:
+    _controller: '\Drupal\vuejs_table\Controller\VuejsTablePlayground::playGround'
+  requirements:
+    _permission: 'administer blocks'

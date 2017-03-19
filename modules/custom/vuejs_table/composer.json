@@ -1,0 +1,7 @@
+{
+  "name": "redlucas/vuejs-table",
+  "description": "Provides a user interface to manage REST resources",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "require": { }
+}
