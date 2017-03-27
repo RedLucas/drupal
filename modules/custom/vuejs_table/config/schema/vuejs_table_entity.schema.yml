@@ -1,0 +1,12 @@
+vuejs_table.vuejs_table_entity.*:
+  type: config_entity
+  label: 'Vuejs table entity config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

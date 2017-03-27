@@ -1,0 +1,9 @@
+
+# Vuejs table entity menu items definition
+entity.vuejs_table_entity.collection:
+  title: 'Vuejs table entity'
+  route_name: entity.vuejs_table_entity.collection
+  description: 'List Vuejs table entity (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

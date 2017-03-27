@@ -6,6 +6,7 @@ use Drupal\Core\Entity\EntityStorageInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Drupal\rest\Plugin\Type\ResourcePluginManager;
@@ -19,7 +20,7 @@ class TableSerializer implements ContainerInjectionInterface {
     return new static();
   }
 
-  public function TableSerialize(integer $table_id, Request $request) {
+  public function TableSerialize(Request $request) {
     ksm($request);
     return new JsonResponse();
   }

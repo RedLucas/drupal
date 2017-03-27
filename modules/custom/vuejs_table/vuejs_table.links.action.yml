@@ -1,0 +1,6 @@
+entity.vuejs_table_entity.add_form:
+  route_name: 'entity.vuejs_table_entity.add_form'
+  title: 'Add Vuejs table entity'
+  appears_on:
+    - entity.vuejs_table_entity.collection
+

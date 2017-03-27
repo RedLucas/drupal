@@ -8,6 +8,6 @@ vuejs_table.playground:
 vuejs_table.playground.json:
   path: '/vuejs-playground-json'
   defaults:
-    _controller: '\Drupal\vuejs_table\Controller\TableSerializer::TableSerialize'
+    _controller: '\Drupal\vuejs_table\Render\Element\VuejsTable::tableJson'
   requirements:
     _permission: 'administer blocks'

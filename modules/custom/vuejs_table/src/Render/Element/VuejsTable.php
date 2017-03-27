@@ -5,6 +5,10 @@ namespace Drupal\vuejs_table\Render\Element;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
 use Drupal\Component\Utility\Html as HtmlUtility;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+
 
 /**
  * Provides a render element for a table.
@@ -58,7 +62,7 @@ use Drupal\Component\Utility\Html as HtmlUtility;
  *
  * @FormElement("vuejs_table")
  */
-class VuejsTable extends Table {
+class VuejsTable extends Element\Table {
   //
   // /**
   //  * {@inheritdoc}
@@ -163,12 +167,12 @@ class VuejsTable extends Table {
   //       drupal_attach_tabledrag($element, $options);
   //     }
   //   }
-  ksm($element);
+    ksm($element);
     return $element;
   }
 
-  public function tableJson(Request $request) {
-    ksm($request);
+  public function tableJson() {
+    ksm(new Request());
     return new JsonResponse();
   }
 
