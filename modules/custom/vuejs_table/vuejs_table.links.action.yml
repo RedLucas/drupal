@@ -1,5 +1,0 @@
-entity.vue_table_entity.add_form:
-  route_name: entity.vue_table_entity.add_form
-  title: 'Add Vue table entity'
-  appears_on:
-    - entity.vue_table_entity.collection
